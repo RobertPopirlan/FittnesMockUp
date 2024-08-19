@@ -9,15 +9,15 @@ const NavBar = () => {
       <div className=''></div>
         <div className=' grid grid-cols-2  w-40  '>
         <Logo className=''/>
-        <h1 className='text-7xl font-saira-condensed font-bold text-white left-40 '>BOXCHAMP</h1>
+        <h1 className='text-7xl font-saira-condensed font-bold text-white'>BOXCHAMP</h1>
         </div>
      </div>
      
-     <div className='grid grid-cols-5  text-2xl font-saira-condensed font-bold text-white  content-center  '>
+     <div className='grid grid-cols-5  text-2xl font-saira-condensed font-bold text-white  place-content-evenly  '>
             <button className='hover:text-zinc-500'>HOME</button>
             <button className='hover:text-zinc-500'>ABOUT</button>
             <button className='hover:text-zinc-500'>CONTACT</button>
-            <button className='hover:text-zinc-500'>LOCATIONS</button>
+            <button className='hover:text-zinc-500'>LOCATION</button>
 
         </div>
         <div className='content-center'>

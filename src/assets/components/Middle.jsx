@@ -3,7 +3,7 @@ import Girl from './Girl fight.jpg'
 
 const Middle = () => {
     return (
-        <div className=' grid grid-cols-3 '>
+        <div className=' grid grid-cols-3 relative -bottom-40'>
 <img src={Girl} alt='Girl box' class='relative top-96 left-1/4 w-full drop-shadow-2xl'></img>
 <div>
     <div className='h-96 w-10 bg-red-600 relative top-96 left-80 rounded-3xl'></div>
